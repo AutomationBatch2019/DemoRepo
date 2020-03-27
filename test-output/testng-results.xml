@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[====Browser launch====]]>
+    </line>
+    <line>
+      <![CDATA[=====Search For TestNg started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Open JavaTpoint and extract menu list=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser close====]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22402" started-at="2020-03-27T14:34:14Z" finished-at="2020-03-27T14:34:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22402" started-at="2020-03-27T14:34:14Z" finished-at="2020-03-27T14:34:37Z">
+      <class name="testdemo.JavaTPoint">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testdemo.JavaTPoint@5c3bd550]" name="launchBrowser" is-config="true" duration-ms="8604" started-at="2020-03-27T20:04:14Z" finished-at="2020-03-27T20:04:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser launch====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="serach()[pri:1, instance:testdemo.JavaTPoint@5c3bd550]" name="serach" duration-ms="2748" started-at="2020-03-27T20:04:23Z" finished-at="2020-03-27T20:04:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Search For TestNg started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- serach -->
+        <test-method status="PASS" signature="openTpoint()[pri:2, instance:testdemo.JavaTPoint@5c3bd550]" name="openTpoint" duration-ms="10867" started-at="2020-03-27T20:04:26Z" finished-at="2020-03-27T20:04:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Open JavaTpoint and extract menu list=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTpoint -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testdemo.JavaTPoint@5c3bd550]" name="closeBrowser" is-config="true" duration-ms="161" started-at="2020-03-27T20:04:36Z" finished-at="2020-03-27T20:04:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser close====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testdemo.JavaTPoint -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
